@@ -1,0 +1,24 @@
+# Written by the installer: database credentials and the app key. Never commit.
+app/config.php
+
+# Runtime data
+storage/database.sqlite*
+storage/sessions/*
+!storage/sessions/.gitkeep
+storage/logs/*
+!storage/logs/.gitkeep
+
+# Images uploaded from the admin panel
+uploads/*
+!uploads/.htaccess
+!uploads/.gitkeep
+
+# Build output and the old Python version
+ok-travel-website.zip
+_legacy_python_version/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
