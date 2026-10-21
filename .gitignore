@@ -1,0 +1,12 @@
+# Secrets
+.env
+
+# Visitor enquiries (names, phone numbers) - created at runtime
+data/enquiries.json
+data/*.tmp
+
+node_modules/
+__pycache__/
+*.log
+.DS_Store
+Thumbs.db
